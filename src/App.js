@@ -1,7 +1,12 @@
-import React from 'react';
-
+import React, { Fragment } from 'react';
+import Article from './components/articles/Article';
 function App() {
-  return <h1> Material ui</h1>;
+  return (
+    <Fragment>
+      <h1> Material ui</h1>
+      <Article />
+    </Fragment>
+  );
 }
 
 export default App;
